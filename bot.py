@@ -24,7 +24,7 @@ LOGINS = dict()
 ALL_LOGINS = []
 LOGGED_IN = set()
 
-ADMIN_ROLE_ID = 784900321242906704
+ADMIN_ROLE_ID = "write here admin role id"
 
 
 STR_NO = '🅾️'
@@ -33,14 +33,14 @@ CONFIRMATIONS = ['!delete', '!lock', '!unlock']
 EXCEPTION = 'Incorect input'
 
 
-CREDENTIALS_FILE = 'mypython-297819-82d9beab3a5c.json'
+CREDENTIALS_FILE = 'write name of json file'
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, ['https://www.googleapis.com/auth/spreadsheets',
                                                                                   'https://www.googleapis.com/auth/drive'])
 httpAuth = credentials.authorize(httplib2.Http())
 service = apiclient.discovery.build('sheets', 'v4', http = httpAuth)
 
-spreadsheetId = '1ioH-xvJDvTS2KHG46cW4nXY0uEwfXUXXtVidatsxIIg'
+spreadsheetId = 'write spreadsheet id here'
 
 
 def ReadAll():
