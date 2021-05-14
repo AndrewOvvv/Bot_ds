@@ -1,7 +1,7 @@
 settings = {
-    'token': 'NzQ5MTk5NTE1NjAwNTUxOTk2.X0ogaw.Ir4IkcNy6DXjxv_plyttfP_Gk-A',
-    'bot': 'Helper',
-    'id': 749199515600551996,
+    'token': '',
+    'bot': '',
+    'id': ,
     'prefix': '!'
 }
 
